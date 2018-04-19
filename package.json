@@ -3,13 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.0"
+  },
   "scripts": {
     "test": "mocha **/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RachirdTheHitman/node-course-2-web-server.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "mocha": "^3.0.0"
-  }
+  "bugs": {
+    "url": "https://github.com/RachirdTheHitman/node-course-2-web-server/issues"
+  },
+  "homepage": "https://github.com/RachirdTheHitman/node-course-2-web-server#readme"
 }
